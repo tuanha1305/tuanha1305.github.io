@@ -1,0 +1,44 @@
+---
+const year = new Date().getFullYear();
+---
+<footer>
+    <div>
+        <div>
+            <ul class="icons">
+                <li><a href="#" target="_blank" class="foot-btn"><span class="git-icon">GitHub</span></a></li>
+                <li><a href="mailto: #@gmail.com" class="foot-btn"><span class="mail-icon">Email</span></a></li>
+                <li><a href="#" target="_blank" class="foot-btn"><span class="linked-in">LinkedIn</span></a></li>
+            </ul>
+        </div>
+        <small>&copy; {year} Tuan Ha Anh by <a href="https://github.com/tuanha1305">tuanha1305</a>. All Rights Reserved.</small>
+    </div>
+</footer>
+<style>
+    footer {
+        margin: 4rem 0;
+    }
+
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding: 0;
+    }
+
+    ul.icons li {
+        display: inline-block;
+        padding: 0 0.5rem;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    small {
+        font-family: 'Josefin Sans', sans-serif; 
+    }
+
+    small a {
+        color: #375a7f;
+        text-decoration: none;
+    }
+</style>
