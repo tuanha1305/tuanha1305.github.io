@@ -54,18 +54,22 @@ const securityHeaders = [
   },
 ]
 
+const envImageUnoptimize = process.env.NODE_ENV !== 'production' ? false : true
+
 /**
  * @type {import('next/dist/next-server/server/config').NextConfig}
  **/
 module.exports = () => {
   const plugins = [withContentlayer, withBundleAnalyzer]
   return plugins.reduce((acc, next) => next(acc), {
+    output: process.env.NODE_ENV !== 'production' ? undefined : 'export',
     reactStrictMode: true,
     pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
     eslint: {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
+      unoptimized: envImageUnoptimize,
       remotePatterns: [
         {
           protocol: 'https',
