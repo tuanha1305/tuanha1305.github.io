@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "tuanha1305-nextjs-blog",
   "version": "2.2.0",
   "private": true,
   "scripts": {
@@ -68,6 +68,5 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
       "prettier --write"
     ]
-  },
-  "packageManager": "yarn@3.6.1"
+  }
 }
