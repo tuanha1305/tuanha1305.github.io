@@ -3,11 +3,12 @@ const siteMetadata = {
   title: 'Tuan Ha Anh - Blog',
   author: 'tuanha1305',
   headerTitle: 'tuanha1305',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description:
+    "Welcome to Tuan Ha Anh's personal blog where I share insights, knowledge, and experiences on technology, programming, and personal development. Join me as we explore the world of coding and beyond.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://tuanha1305.github.io',
+  siteRepo: 'https://github.com/tuanha1305/tuanha1305.github.io.git',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@mastodonuser',
