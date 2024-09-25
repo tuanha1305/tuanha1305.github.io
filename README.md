@@ -48,6 +48,14 @@ This will generate optimized assets in the `.next` folder.
 
 The site is automatically deployed to GitHub Pages from the main branch. Ensure that GitHub Pages is correctly set up in your repository settings.
 
+#### Disable GitHub Pages (Optional)
+
+If you want to disable GitHub Pages for your repository, follow these steps:
+
+1. Go to Settings of your repository.
+2. Under General -> Pages, scroll to the Branch dropdown.
+3. Select None at the bottom of the dropdown to disable GitHub Pages.
+
 ## 📄 License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
