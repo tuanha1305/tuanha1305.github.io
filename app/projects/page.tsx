@@ -1,35 +1,23 @@
-import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
-import { genPageMetadata } from 'app/seo'
+import { AlertTriangle } from 'lucide-react'
 
-export const metadata = genPageMetadata({ title: 'Projects' })
-
-export default function Projects() {
+export default function Page() {
   return (
-    <>
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Projects
-          </h1>
-          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase your projects with a hero image (16 x 9)
-          </p>
-        </div>
-        <div className="container py-12">
-          <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
+    <div className="flex min-h-screen items-center justify-center px-4">
+      <div className="w-full max-w-lg rounded-lg border border-gray-200 bg-white p-8 shadow-lg">
+        <div className="flex items-center space-x-4">
+          <div className="flex-shrink-0">
+            <AlertTriangle className="h-8 w-8 text-amber-500" />
+          </div>
+          <div>
+            <h3 className="mb-1 text-lg font-semibold text-gray-900">System Maintenance</h3>
+            <p className="text-gray-600">
+              We're currently performing scheduled maintenance to improve your experience. We'll be
+              back shortly. Thank you for your patience.
+            </p>
           </div>
         </div>
+        <div className="mt-6 text-center text-sm text-gray-500">We will be back soon</div>
       </div>
-    </>
+    </div>
   )
 }
