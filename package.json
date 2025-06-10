@@ -1,0 +1,46 @@
+{
+  "name": "jekyll-blog",
+  "version": "1.0.0",
+  "author": "Lucas Ha",
+  "license": "MIT",
+  "keywords": [
+    "jekyll",
+    "tuanha1305.github.io",
+    "jekyll-template"
+  ],
+  "homepage": "https://tuanha1305.github.io",
+  "description": "A super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanha1305/tuanha1305.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tuanha1305/tuanha1305.github.io/issues"
+  },
+  "scripts": {
+    "build": "cross-env JEKYLL_ENV=production bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve -H 0.0.0.0",
+    "Gemfile.lock": "docker run --rm -v \"$PWD\":/usr/src/app -w /usr/src/app ruby:2.6 bundle install",
+    "eslint": "eslint \"_includes/**/*.js\"",
+    "eslint-fix": "eslint \"_includes/**/*.js\" --fix",
+    "stylelint": "stylelint --syntax scss \"_sass/**/*.scss\"",
+    "stylelint-fix": "stylelint --syntax scss \"_sass/**/*.scss\" --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "cross-env": "^7.0.0",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.1",
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.14.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
