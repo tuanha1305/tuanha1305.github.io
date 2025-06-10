@@ -127,4 +127,5 @@ Java_com_example_app_MainActivity_makeHttpRequest(JNIEnv* env, jobject /* this *
 ```
 
 Script build và deployment này có thể được customize cho các thư viện native khác, giúp streamline quá trình phát triển Android NDK.
+
 #curl #android #prebuild #android-ndk #ndk #android
