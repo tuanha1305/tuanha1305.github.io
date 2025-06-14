@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn Build RTMP Dump và cách sử dụng cho Android
-tags: rtmp, android, prebuild, android-ndk, ndk, android, rtmp-dump
+tags: rtmp android prebuild android-ndk ndk android rtmp-dump
 ---
 
 ## Giới thiệu về RTMPDump

@@ -1,6 +1,6 @@
 ---
 title: Hướng dẫn build thư viện cURL cho Android
-tags: curl, android, prebuild, android-ndk, ndk, android
+tags: curl android prebuild android-ndk ndk android
 ---
 
 Khi phát triển ứng dụng Android native sử dụng NDK, việc tích hợp thư viện cURL cho các tác vụ HTTP/HTTPS là khá phổ biến. Tuy nhiên, việc build cURL từ source code cho Android có thể phức tạp và tốn thời gian. Bài viết này sẽ hướng dẫn bạn cách build cURL cho Android và tạo prebuilt binaries để tái sử dụng.
