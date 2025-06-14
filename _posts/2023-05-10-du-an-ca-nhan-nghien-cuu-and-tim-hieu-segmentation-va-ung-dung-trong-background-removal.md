@@ -19,7 +19,7 @@ Xây dựng một hệ thống **background removal** (xóa phông) hiệu quả
 |-------------|----------------|---------|------------|  
 | **U²Net**   | U-Net lồng nhau (Nested U-Net) | Hiệu suất cao, phù hợp với đa dạng nền | Nặng, chậm inference |  
 | **MODNet**  | Multi-task learning (Semantic + Detail) | Nhẹ, phù hợp real-time | Độ chính xác thấp hơn U²Net |  
-| **ISNet**   | Interactive Segmentation | Tận dụng user input để cải thiện mask | Phức tạp khi triển khai tự động |  
+| **DIS** (IS-Net) | **Highly Accurate Dichotomous Image Segmentation**<br>↳ *Intermediate Supervision Network* [[paper]](https://arxiv.org/abs/2203.03041) | Thu được **mask chi tiết mức pixel** trên ảnh độ phân giải cao; độ chính xác IoU/Dice cao | Cần GPU/bộ nhớ lớn, inference chậm hơn MODNet |
 | **Inspyrenet** | CNN + Transformer | Kết hợp local & global features | Đòi hỏi nhiều tài nguyên tính toán |  
 
 #### **Phương pháp đánh giá**  
