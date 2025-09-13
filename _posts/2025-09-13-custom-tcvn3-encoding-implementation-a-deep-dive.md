@@ -480,13 +480,13 @@ pub fn max_utf8_buffer_length(&self, byte_length: usize) -> Option<usize> {
 ## Kết luận
 Bạn có thể tham khảo thêm impl chi tiết trong [repo **encoding\_rs** (nhánh *vietnamese-encoding*)](https://github.com/tuanha1305/encoding_rs/tree/vietnamese-encoding).
 
-Hy vọng bài viết này sẽ giúp ích được nhiều người trong việc xử lý encoding TCVN3. Cảm ơn bạn đã đọc.
+Hy vọng bài viết này sẽ giúp ích được nhiều người trong việc xử lý encoding `TCVN3`. Cảm ơn bạn đã đọc.
 
 Dưới đây là phiên bản hoàn chỉnh của phần kết thúc blog với chèn **reference** gọn gàng và chuyên nghiệp:
 
 ---
 
-Bạn có thể tham khảo thêm phần triển khai chi tiết trong [repo **encoding\_rs** (nhánh *vietnamese-encoding*)](https://github.com/tuanha1305/encoding_rs/tree/vietnamese-encoding), nơi tôi thử nghiệm và bổ sung hỗ trợ cho các bộ mã tiếng Việt.
+Bạn có thể tham khảo thêm phần triển khai chi tiết trong [repo](https://github.com/tuanha1305/encoding_rs/tree/vietnamese-encoding)
 
 ---
 
