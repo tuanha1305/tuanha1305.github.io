@@ -482,14 +482,5 @@ Bạn có thể tham khảo thêm impl chi tiết trong [repo **encoding\_rs** (
 
 Hy vọng bài viết này sẽ giúp ích được nhiều người trong việc xử lý encoding `TCVN3`. Cảm ơn bạn đã đọc.
 
-Dưới đây là phiên bản hoàn chỉnh của phần kết thúc blog với chèn **reference** gọn gàng và chuyên nghiệp:
-
----
-
-Bạn có thể tham khảo thêm phần triển khai chi tiết trong [repo](https://github.com/tuanha1305/encoding_rs/tree/vietnamese-encoding)
-
----
-
 ## References
-
 * Unicode & Vietnamese Legacy Character Encodings: [https://vietunicode.sourceforge.net/charset](https://vietunicode.sourceforge.net/charset)
