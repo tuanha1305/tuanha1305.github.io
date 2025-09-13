@@ -1,6 +1,6 @@
 ---
-title: Custom TCVN3 Encoding Implementation - A Deep Dive
-tags: tcvn3 encoding rust
+title: Hành trình xây dựng hệ thống Log Realtime: Từ ELK đến ClickHouse
+tags: tcvn3 encoding rust elk clickhouse kafka log realtime
 ---
 
 # Hành trình xây dựng hệ thống Log Realtime: Từ ELK đến ClickHouse
