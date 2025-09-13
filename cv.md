@@ -26,8 +26,6 @@ titles:
 key: page-resume
 ---
 
-## Lập trình viên Backend
-
 **Tuấn Hà Anh, Lập trình viên Backend**
 
 * Hà Nội, Việt Nam

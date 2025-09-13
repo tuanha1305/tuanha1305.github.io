@@ -1,9 +1,7 @@
 ---
-title: Hành trình xây dựng hệ thống Log Realtime: Từ ELK đến ClickHouse
+title: Hành trình xây dựng hệ thống Log Realtime - Từ ELK đến ClickHouse
 tags: tcvn3 encoding rust elk clickhouse kafka log realtime
 ---
-
-# Hành trình xây dựng hệ thống Log Realtime: Từ ELK đến ClickHouse
 
 Trong quá trình phát triển một hệ thống game online với quy mô lớn, việc xây dựng một hệ thống log realtime hiệu quả là một thách thức không hề đơn giản. Bài viết này sẽ chia sẻ hành trình của tôi qua 3 giai đoạn phát triển, từ những khó khăn ban đầu đến giải pháp cuối cùng.
 
