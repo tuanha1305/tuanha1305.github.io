@@ -62,12 +62,12 @@ Trong ngày open server, chỉ sau 2 giờ hoạt động:
 ### Kiến trúc mới
 
 ```
-Game Servers ← Log Server (Pull) → Logstash → Elasticsearch
+Game Servers ← Log Server (Pull) → Filebeat → Logstash → Elasticsearch
 ```
 
 Sau sự cố, tôi nhanh chóng chuyển sang mô hình:
 - **Tách riêng Log Server**: Pull log từ các Game Server
-- **Giảm tải cho Game Server**: Không còn phải chạy Filebeat
+- **Giảm tải cho Game Server**: Không còn phải chạy Filebeat trên Game Server mọi thử sẽ xử lý ở `Log Server`
 - **Xử lý centralized**: Tập trung xử lý tại một điểm
 
 ### Kết quả
