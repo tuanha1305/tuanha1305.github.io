@@ -26,8 +26,6 @@ titles:
 key: page-about
 ---
 
-# Về Chúng Tôi
-
 ## Giới Thiệu
 
 Chào mừng bạn đến với không gian của **Lucas Ha** - một nhà phát triển phần mềm đam mê công nghệ và mã nguồn mở. Với kinh nghiệm đa dạng trong nhiều ngôn ngữ lập trình và nền tảng, tôi luôn nỗ lực mang đến những giải pháp công nghệ hiệu quả và sáng tạo.
