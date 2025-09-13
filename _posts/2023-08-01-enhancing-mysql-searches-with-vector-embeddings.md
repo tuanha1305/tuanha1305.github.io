@@ -3,11 +3,6 @@ title: Nâng cao khả năng tìm kiếm MySQL với Vector Embeddings
 tags: vector mysql embeddings semantic-search
 ---
 
----
-title: Nâng cao khả năng tìm kiếm MySQL với Vector Embeddings
-tags: vector mysql embeddings semantic-search
----
-
 ## Giới thiệu về Vector Embeddings trong MySQL
 
 Vector embeddings là biểu diễn số hóa của dữ liệu (văn bản, hình ảnh...) nắm bắp ý nghĩa ngữ nghĩa trong không gian đa chiều. Mặc dù MySQL không được thiết kế sẵn cho các thao tác vector, bạn vẫn có thể triển khai khả năng tìm kiếm vector để cải thiện các tìm kiếm.
