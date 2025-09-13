@@ -3,9 +3,7 @@ title: Custom TCVN3 Encoding Implementation - A Deep Dive
 tags: tcvn3 encoding rust
 ---
 
-# Custom TCVN3 Encoding Implementation: A Deep Dive
-
-TCVN3 (Vietnamese legacy encoding) là một encoding đa byte được sử dụng để mã hóa văn bản tiếng Việt trước khi Unicode trở nên phổ biến. Bài viết này sẽ chia sẻ cách implement một encoder/decoder TCVN3 hoàn chỉnh, từ cấu trúc dữ liệu đến logic xử lý.
+TCVN3 (Vietnamese legacy encoding) là một encoding đa byte được sử dụng để mã hóa văn bản tiếng Việt trước khi Unicode trở nên phổ biến. Trong 1 dự án gần đây của tôi có sử dụng đến encoding này. Bài viết này sẽ chia sẻ cách implement một encoder/decoder TCVN3 hoàn chỉnh.
 
 ## Tổng quan về TCVN3
 
