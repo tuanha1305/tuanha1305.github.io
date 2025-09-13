@@ -34,7 +34,7 @@ Tôi bắt đầu với kiến trúc truyền thống ELK Stack sử dụng Dock
 #### 1. Vấn đề Encoding TCVN3
 Log của hệ thống sử dụng encoding TCVN3 - một chuẩn encoding cũ của Việt Nam. Điều này buộc tôi phải:
 - Viết custom script JavaScript để convert từ TCVN3 sang UTF-8
-- Tích hợp script này vào pipeline của Logstash
+- Tích hợp script này vào filebeat để convert log trước khi gửi đến Logstash
 
 #### 2. Format TSV phức tạp
 Dữ liệu log ở dạng Tab-Separated Values đòi hỏi:
@@ -53,6 +53,7 @@ Trong ngày open server, chỉ sau 2 giờ hoạt động:
 - **6 server cùng hết memory**
 - **Toàn bộ Game Server bị crash**
 - **Phải rollback, mất dữ liệu một khoảng thời gian**
+- **Phải stop service log**
 
 Đây là bài học đắt giá về tầm quan trọng của việc test với dữ liệu thực tế!
 
