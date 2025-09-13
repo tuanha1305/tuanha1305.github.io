@@ -52,7 +52,7 @@ Dữ liệu log ở dạng Tab-Separated Values đòi hỏi:
 Trong ngày open server, chỉ sau 2 giờ hoạt động:
 - **6 server cùng hết memory**
 - **Toàn bộ Game Server bị crash**
-- **Phải rollback, mất dữ liệu một khoảng thời gian**
+- **Bị rollback, mất dữ liệu một khoảng thời gian**
 - **Phải stop service log**
 
 Đây là bài học đắt giá về tầm quan trọng của việc test với dữ liệu thực tế!
