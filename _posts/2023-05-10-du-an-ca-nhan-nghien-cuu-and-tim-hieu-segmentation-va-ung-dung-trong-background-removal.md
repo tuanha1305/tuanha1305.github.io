@@ -1,6 +1,7 @@
 ---
 title: Dự án cá nhân - Nghiên cứu & tìm hiểu Segmentation và ứng dụng trong Background Removal
 categories: [project]
+cover: "/assets/rembg.png"
 ---
 
 ## **Mục tiêu dự án**  

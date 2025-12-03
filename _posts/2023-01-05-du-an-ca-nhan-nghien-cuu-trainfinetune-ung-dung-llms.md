@@ -1,6 +1,7 @@
 ---
 title: Dự án cá nhân - Nghiên cứu và tìm hiểu train/finetune ứng dụng LLMs
 categories: [project]
+cover: "/assets/llms-finetune.png"
 ---
 
 ## **Tổng quan**  
