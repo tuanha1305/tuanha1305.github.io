@@ -1,10 +1,7 @@
 ---
 title: Dự án cá nhân - AI Web Builder - Vibe Coding
 categories: [project]
-article_header:
-  type: cover
-  image:
-    src: /assets/vibe-coding.png
+image: "/assets/vibe-coding.png"
 ---
 
 # **AI Web Builder – Vibe Coding**
