@@ -1,5 +1,5 @@
 ---
-title: Build Web Game bằng Axmol Engine
+title: Build Web Game bằng Cocos2dx - Axmol Engine
 tags: c++ crossplatform android ios web wasm cocos2dx axmol
 ---
 
