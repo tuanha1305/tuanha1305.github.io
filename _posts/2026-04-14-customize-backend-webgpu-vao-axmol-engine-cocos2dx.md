@@ -3,10 +3,6 @@ title: Customize Backend WebGPU vào Axmol Engine - Cocos2dx
 tags: c++ crossplatform android ios web wasm cocos2dx axmol webgpu
 ---
 
-# Customize Backend WebGPU vào Axmol Engine - Cocos2dx
-
----
-
 ## Kiến Trúc Hiện Tại
 
 Trước khi động vào bất kỳ dòng code nào, cần hiểu điều gì tạo nên lớp rendering của Axmol.
