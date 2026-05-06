@@ -1,8 +1,6 @@
 ---
-layout: post
-title: "Bringing TCVN3 to VS Code — codec + tool + 1-line install"
-date: 2026-05-06
-tags: [tcvn3, vscode, javascript, encoding, vietnamese]
+title: Bringing TCVN3 to VS Code — codec + tool + 1-line install
+tags: tcvn3 vscode javascript encoding vietnamese
 ---
 
 [Bài trước](/2025/09/13/custom-tcvn3-encoding-implementation-a-deep-dive.html) tôi đã mổ xẻ TCVN3 ở mức codec — bảng mapping 134 ký tự, luồng greedy longest-match, và performance trick. Lần này tôi đóng gói nó thành một thứ chạy thật trong VS Code: mở file TCVN3, save không corrupt, search Vietnamese ra match, cài 1 dòng.
