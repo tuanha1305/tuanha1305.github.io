@@ -1,5 +1,5 @@
 ---
-title: Bringing TCVN3 to VS Code — codec + tool + 1-line install
+title: Implementing Custom Encoding in VS Code — TCVN3
 tags: tcvn3 vscode javascript encoding vietnamese
 ---
 
