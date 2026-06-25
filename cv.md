@@ -81,7 +81,8 @@ Lập trình viên Fullstack & Nhà nghiên cứu AI với hơn 5 năm kinh nghi
 
 ### Lịch sử công việc
 
-* **04/2023 — Hiện tại**: DLS — Hà Nội
+* **03/2025 — Hiện tại**: Tech3C
+* **04/2023 — 02/2025**: DLS — Hà Nội
 * **11/2019 — 03/2023**: VCCorp — Hà Nội
 
 ### Học vấn
